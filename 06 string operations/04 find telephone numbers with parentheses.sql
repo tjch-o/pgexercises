@@ -1,5 +1,5 @@
 select memid,
     telephone
 from cd.members
-where telephone ilike '%(%'
+where telephone like '%(%'
     and telephone like '%)%';
